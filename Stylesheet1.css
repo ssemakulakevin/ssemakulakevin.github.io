@@ -1,3 +1,16 @@
+
+div{
+margin-top: 400px;
+width:100%;
+height:100%;
+margin-left: 0px;
+    background-image:linear-gradient(155deg,
+    rgba(20,10,10,0.9),
+    rgba(0,0,0,0.8),
+    rgba(10,0,0,0.9)
+  ), url("pic3.jpg");
+}
+
 body {
   font-family: Tahomah;
   padding: 2em;
@@ -7,9 +20,10 @@ body {
     rgba(20,10,10,0.9),
     rgba(0,0,0,0.8),
     rgba(10,0,0,0.9)
-  ), url(https://www.mibaacademy.com/thumbs/1100x700c/2019-12/e-learning.jpg);
-  background-size:auto;
-  background-repeat: no-repeat;
+  ),url("pic3.jpg"),url("pic3.jpg");
+
+   background-position: right bottom, left top;
+    height: 1050px;
    
 }
 fieldset {
@@ -26,7 +40,7 @@ h1{
     color:rgb(255,165,0);
 }
 p{
-    color:rgb(100,120,0);
+    color:rgb(0,165,255);
 }
 p,h1 {
   text-align:center;
@@ -69,10 +83,22 @@ input[type="radio"],input[type="checkbox"]{
 }
   
 h4,#ex{
-    color: rgb(0,200,250);
+    color: rgb(100,100,0,1);
 }
   
 
 label[for="experience"] {
     color: rgb(100,100,0,1);
+}
+
+#mg{
+    margin-left: -20px;
+    margin-bottom:0px;
+    height: 250px;
+    width: 320;}
+/* styles.css */
+#bh{
+    height: 50px;
+    width: 300;
+    padding-bottom: 0px;
 }
